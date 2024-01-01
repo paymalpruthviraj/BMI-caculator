@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <style>
+        #height{
+            display: inline-block;
+            height: 130px;
+            width: 150px;
+            background-color: white;
+            margin-left: 83px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            padding-top: 20px;
+           
+
+        }
+        #weight{
+            display: inline-block;
+            margin-left: 26px;
+            height: 130px;
+            width: 150px;
+            background-color: white;
+            border-radius: 8px;
+            padding-top: 20px;
+            
+        }
+        #body{
+            height: 500px;
+            width: 500px;
+            background-color: #09C9F6;
+           
+         
+        }
+        #BMI{
+            display: flexbox;
+            height: 50px;
+            width: 404px;
+            background-color: aliceblue;
+            border-radius: 4px;
+            margin-left: 46px;
+            margin-bottom: 40px;
+            text-align: center;
+            padding-top: 15px;
+
+        }
+        #buttion{
+            margin-left: 83px;
+        }
+        #calculate{
+            height: 32px;
+            width: 330px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            background-color: blue;
+            color: whitesmoke;
+        }
+        #Reset{
+            height: 32px;
+            width: 330px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            background-color: red;
+            color: whitesmoke;
+        }
+        #weightlable{
+           
+            padding-left: 50px;
+            padding-top: 50px;
+        }
+        #heightlable{
+            padding-left: 50px;
+            padding-top: 50px;
+        }
+        #weightinput{
+            width: 100px;
+            height:32px ;
+            margin-left: 20px;
+            margin-top: 10px;
+            border-radius: 8px;
+        }
+        #heightinput{
+            width: 100px;
+            height:32px ;
+            margin-left: 20px;
+            margin-top: 10px;
+            border-radius: 8px;
+        }
+        #head{
+            text-align: center;
+            padding-top: 20px;
+        }
+        #mainbody{
+         background-image: url(assets/bg.jpg);
+         margin-left: 500px;
+         margin-top: 100px;
+        }
+       
+
+
+
+    </style>
+</head>
+<body  id="mainbody">
+    <div id="body">
+    <h2 id="head">BMI Calculator</h2>
+    <h3 id="BMI">Your BMI : 00</h3>
+    
+    <form action="" class="form">
+        <div id="main">
+        <div id="height">
+            <label for="" id="heightlable">Height</label><br>
+            <label for="" id="heightlable">(Cm)</label><br>
+            <input type="number" id="heightinput">
+        </div>
+        <div id="weight">
+            <label for="" id="weightlable">Weight</label><br>
+            <label for="" id="weightlable">(Kg)</label><br>
+            <input type="number" id="weightinput"><br>
+      
+        </div><br>
+        <div id="buttion">
+        <input type="button" value="Calculate BMI"  id="calculate"><br>
+        <input type="reset" value="Reset" id="Reset">
+    </div>
+    </form>
+</div>
+</div>
+</body>
+</html>
